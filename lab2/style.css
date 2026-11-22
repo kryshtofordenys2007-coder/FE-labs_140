@@ -1,0 +1,62 @@
+:root {
+    --c1: #408f8f;
+    --c2: #f5f540;
+    --text: #000000;
+}
+
+body { font-family: "Times New Roman", serif; margin: 20px; }
+
+.var-table {
+    border-collapse: collapse;
+    width: 640px;
+    color: var(--text);
+}
+.var-table td {
+    border: 2px solid #444;
+    padding: 12px 10px;
+    height: 36px;
+    text-align: center;
+}
+.row1 td { background-color: var(--c1); }
+.row2 td { background-color: var(--c2); }
+
+.row1:hover td { background-color: var(--c2); }
+.row2:hover td { background-color: var(--c1); }
+
+.gear {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px 0 0 60px;
+}
+.gear span { position: absolute; display: block; }
+
+.gear .body {
+    width: 120px; height: 120px;
+    left: 40px; top: 40px;
+    border-radius: 50%;
+    background: #aaaaaa;
+}
+
+.gear .hole {
+    width: 52px; height: 52px;
+    left: 74px; top: 74px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.gear .tooth {
+    width: 34px; height: 200px;
+    left: 83px; top: 0;
+    background: #aaaaaa;
+    border-radius: 6px;
+    transform-origin: 50% 50%;
+}
+.gear .tooth:nth-child(1) { transform: rotate(0deg)   scaleY(.78); }
+.gear .tooth:nth-child(2) { transform: rotate(45deg)  scaleY(.78); }
+.gear .tooth:nth-child(3) { transform: rotate(90deg)  scaleY(.78); }
+.gear .tooth:nth-child(4) { transform: rotate(135deg) scaleY(.78); }
+.gear .tooth:nth-child(5) { transform: rotate(180deg) scaleY(.78); }
+.gear .tooth:nth-child(6) { transform: rotate(225deg) scaleY(.78); }
+.gear .tooth:nth-child(7) { transform: rotate(270deg) scaleY(.78); }
+.gear .tooth:nth-child(8) { transform: rotate(315deg) scaleY(.78); }
