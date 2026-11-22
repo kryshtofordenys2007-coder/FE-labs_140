@@ -1,0 +1,6 @@
+body { font-family: "Times New Roman", serif; margin: 20px 40px; }
+h2, p.birth { cursor: pointer; }
+.buttons { margin-top: 12px; }
+.buttons button { padding: 6px 14px; margin-right: 6px; cursor: pointer; }
+#gallery img { display: block; margin-bottom: 8px; }
+#gallery a { display: inline-block; }
