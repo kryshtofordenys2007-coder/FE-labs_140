@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Криштофор Д. Р., ІС-43, Лабораторна робота №5, Варіант 140</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Завдання 1. Форма з валідацією (регулярні вирази)</h2>
+    <form id="form" novalidate>
+        <div class="row" id="row-fio">
+            <label for="fio">ПІБ</label>
+            <input type="text" id="fio" placeholder="ПІБ">
+            <span class="msg"></span>
+        </div>
+        <div class="row" id="row-faculty">
+            <label for="faculty">Факультет</label>
+            <input type="text" id="faculty" placeholder="Ваш факультет">
+            <span class="msg"></span>
+        </div>
+        <div class="row" id="row-birth">
+            <label for="birth">Дата народж.</label>
+            <input type="text" id="birth" placeholder="ДД.ММ.РРРР">
+            <span class="msg"></span>
+        </div>
+        <div class="row" id="row-address">
+            <label for="address">Адреса</label>
+            <input type="text" id="address" placeholder="Ваше місто">
+            <span class="msg"></span>
+        </div>
+        <div class="row" id="row-email">
+            <label for="email">e-mail</label>
+            <input type="text" id="email" placeholder="Електронна адреса">
+            <span class="msg"></span>
+        </div>
+        <button type="submit">Перевірити</button>
+    </form>
+    <div id="result" hidden></div>
+
+    <h2>Завдання 2. Таблиця 6×6</h2>
+    <div class="palette">
+        Колір для кліку/подвійного кліку: <input type="color" id="picker" value="#ff9800" aria-label="Колір" title="Колір">
+    </div>
+    <table id="grid"></table>
+
+    <script src="script.js"></script>
+</body>
+</html>
