@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 0; }
+.app { max-width: 900px; margin: 0 auto; padding: 20px; }
+.clickable { cursor: pointer; }
+.buttons button { padding: 6px 14px; margin-right: 6px; margin-top: 8px; cursor: pointer; }
+.goods { display: flex; flex-wrap: wrap; gap: 16px; }
+.card { width: 200px; border: 1px solid #ccc; border-radius: 8px; padding: 10px; text-align: center; }
+.card img { width: 100%; border-radius: 6px; }
+.card h4 { margin: 8px 0 4px; }
+.price { color: #d17b00; font-weight: bold; margin: 0; }
